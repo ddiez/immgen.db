@@ -1,0 +1,15 @@
+Package: immgen.db
+Type: Package
+Title: A Package with Data from the Immgen Project
+Version: 0.1.0
+Author@R: person("Diego", "Diez", email = "diego10ruiz@gmail.com", role =
+    c("aut", "cre"))
+Description: This package contains data from the Immunological Genome
+    Project (Immgen). It includes expression data from > 200 immune cell
+    types, and the tree ontogeny of the cells.
+Imports:
+  Biobase
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
