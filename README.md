@@ -1,6 +1,6 @@
 # immgen.db
 
-A package with data from the Immunological Genome Project, available as convenient R objects.
+This package contains data compiled from the [Immunological Genome Project](http://www.immgen.org) (ImmGen). Currently it contains expression data and the ontogeny.
 
 ## Intallation
 
@@ -10,6 +10,9 @@ Because the expression dataset is larger than 100 Mb it is stored in a LFS repos
 devtools::install_github("ddiez/immgen.db")
 ```
 
-## Summary
+## Usage
 
-This package contains data compiled from the [Immunological Genome Project](http://www.immgen.org) (ImmGen). Currently it contains expression data and the ontogeny.
+```R
+library(immgen.db)
+immgen # ExpressionSet object with 22,135 features and 678 samples.
+```
